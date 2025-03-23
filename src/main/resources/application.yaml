@@ -1,0 +1,9 @@
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/xxx?useSSL=false&serverTimezone=UTC
+    username: root
+    password: xxx
+server:
+  port: 8971
